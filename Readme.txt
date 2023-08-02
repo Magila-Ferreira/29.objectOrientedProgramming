@@ -47,6 +47,40 @@
 ----- Explicação =>
 		ação: comprar
 		o que? - Ingredientes
-		onde|como|para que? - Supermercado    
+		onde|como|para que? - Supermercado  
+		
+>>> MÉTODOS - getters and setters:  
+----- Getters: 
+		* Atribuído a uma propriedade private 
+			Exemplo: private String nome;
+			
+ 		* O método é necessariamente público;
+ 		* O método precisa ser do mesmo tipo do atributo 
+ 			Exemplo: public String getNome() {}; 
+
+OBJETIVO DO MÉTODO: retornar o valor do atributo privado <nome> de forma pública.
+
+----- Setters:
+		* Atribuído a uma propriedade private
+			Exemplo: private int idade;
+		
+		* O método é necessariamente público;
+		* O parâmetro do método precisa ser do mesmo tipo do atributo
+		* O método é do tipo void, não retorna nenhum valor.
+			Exemplo: public void setIdade(int newIdade);
+			
+OBJETIVO DO MÉTODO: modificar o valor do atributo privado <idade>.
+
+>>> CONSTRUTORES: permitem a criação de um novo objeto da classe.   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
 >>> Programação estruturada: linear, sequência de instruções.
