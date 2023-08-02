@@ -71,15 +71,36 @@ OBJETIVO DO MÉTODO: retornar o valor do atributo privado <nome> de forma públi
 			
 OBJETIVO DO MÉTODO: modificar o valor do atributo privado <idade>.
 
->>> CONSTRUTORES: permitem a criação de um novo objeto da classe.   
+>>> CONSTRUTORES: permitem a criação de um novo objeto da classe, instanciando valores iniciais para o objeto.
+
+----- O construtor não possui retorno
+----- O nome do método construtor deve ser o mesmo nome da classe
+----- Deve receber parâmetros para a instanciação da classe com valores iniciais.  
+----- Atribui ao processo de instanciação da classe, a necessidade de definir valores iniciais para os atributos do objeto (presentes no construtor). 
+----- BOAS PRÁTICAS: uso de construtor apenas para definir os atributos extremamente relevantes para a existência de um objeto.
+----- Uma classe pode conter mais de um construtor, com atributos diferentes. Essa prática é recomendada apenas quando houver necessidade de definir o mesmo objeto utilizando apenas parte dos atributos.
+	EXEMPLO:
+	---> Dada a classe Pessoa, com os atributos nome, dt_nasc e nívelEscolaridade, um sistema municial integrado de educação, saúde e segurança pública, teria os três atributos como extremamente relevantes para um cadastro escolar, enquanto um sistema de saúde, apenas os dois primeiros, logo, teríamos:
+	
+	--- Sistema escolar:
+	public Pessoa(String nome, date dt_nasc, String nivelEsc) {
+		this.nome = nome;
+		this.dt_nasc = dt_nasc;
+		this.nivelEsc = nivelEsc;
+	}
+	
+	--- Sistema de saúde:
+	public Pessoa(String nome, date dt_nasc) {
+		this.nome = nome;
+		this.dt_nasc = dt_nasc;
+	}   
+
+OBJETIVO DO CONSTRUTOR: garantir que, os atributos extremamente relevantes da classe, sejam definidos na criação do objeto. 
    
+>>> ENUMS: tipo especial de classe, onde os objetos são previamente criados, imutáveis e public  
    
-   
-   
-   
-   
-   
-   
+	* Utilizados para a criação de objetos que não sofrerão alterações ou que espera-se que raramente sofra. 
+   		Exemplo: Estados da Federação, situação civil, grau de escolaridade etc.
    
    
    
