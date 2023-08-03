@@ -106,5 +106,69 @@ OBJETIVO DO CONSTRUTOR: garantir que, os atributos extremamente relevantes da cl
    		Exemplo: Estados da Federação, situação civil, grau de escolaridade etc.
    
 >>> UML:
------    
+----- Linguagem de Modelagem Unificada, é uma notação que permite representar graficamente o projeto.         
    
+	* Diagramas 
+	----- se classificam de acordo com seu fluxo.:
+		
+		- Tipos de Fluxograma: 
+			
+			# Estrutural:
+				
+				. Diagrama de Classe:
+				----- Representa graficamente a estrutura de classes: suas hierarquias e como serão interligadas entre si;
+				
+				Estrutura das classes:
+					+ Identificação: nome e/ou finalidade da classe;
+					+ Atributos: Propriedades e/ou características;
+					+ Operações: ações e/ou métodos;
+					
+				. Diagrama dos Relacionamentos:
+				----- Representa graficamente a relação entre as classes e o nível de dependência entre elas;
+				
+				Tipos de relacionamento:
+					+ Associação: define uma relação onde o objeto de uma classe tem acesso a objetos de outra classe, porém, não há dependência entre elas, ou sejam, podem existir individualmente; 
+					+ Associação Bidirecional: define uma dupla associação, quando um objeto tem acesso a outro e, também, é acessado por ele.
+					
+					+ Agregação: define uma relação de independência entre as classes, ou seja, ainda que um objeto tenha acesso a outro, ele não necessita dele para existir.
+					
+					+ Composição: define uma relação de dependência entre as classes, ou seja, uma delas não pode existir fora do relacionamento com outra classe, assim, se a classe "mãe" deixar de existir, necessariamente a filha também não existirá.
+					 
+				Forma de relacionamento:
+					+ 1-para-1
+					+ 1-para-N
+					+ 1-para-0,1
+					+ 1-para-0,N
+					+ 1-para-1,N 
+					+ N-para-N
+					
+				Visibilidade dos atributos e métodos da classe:
+				----- De acordo com os níveis de visibilidade da classe, atribui-se símbolos que os representam graficamente:
+					+ Visibilidade pública		(+)
+					+ Visibilidade protegida	(#)
+					+ Visibilidade privada		(-)
+				
+				. Diagrama de objetos:
+				----- Representa a existência dos objetos em um determinado momento da aplicação; 
+				
+			# Comportamental:
+					
+	* Elementos:
+	* Relacionamentos:
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
