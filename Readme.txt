@@ -1,5 +1,8 @@
->>> PROGRAMAÇÃO ORIENTADA A OBJETO: (abstração ao mundo real):
+>>> Formas de programação:
+----- Programação estruturada: linear, sequência de instruções.
+----- Programação orientada a objeto: (abstração do mundo real):
 
+______________________ PROGRAMAÇÃO ORIENTADA A OBJETO _______________________  
 ----- Linguagem de alto nível: maior interação humana
 ----- Fluxo comportamental: objetos do contexto
 ----- Procedimentos e funções dos objetos
@@ -71,8 +74,8 @@ OBJETIVO DO MÉTODO: retornar o valor do atributo privado <nome> de forma públi
 			
 OBJETIVO DO MÉTODO: modificar o valor do atributo privado <idade>.
 
->>> CONSTRUTORES: permitem a criação de um novo objeto da classe, instanciando valores iniciais para o objeto.
-
+>>> CONSTRUTORES: 
+----- Não Permite a criação de um novo objeto da classe, sem a definição dos valores iniciais aos atributos essenciais do objeto.
 ----- O construtor não possui retorno
 ----- O nome do método construtor deve ser o mesmo nome da classe
 ----- Deve receber parâmetros para a instanciação da classe com valores iniciais.  
@@ -97,11 +100,11 @@ OBJETIVO DO MÉTODO: modificar o valor do atributo privado <idade>.
 
 OBJETIVO DO CONSTRUTOR: garantir que, os atributos extremamente relevantes da classe, sejam definidos na criação do objeto. 
    
->>> ENUMS: tipo especial de classe, onde os objetos são previamente criados, imutáveis e public  
-   
+>>> ENUMS: 
+	* Tipo especial de classe, onde os objetos são previamente criados, imutáveis e public     
 	* Utilizados para a criação de objetos que não sofrerão alterações ou que espera-se que raramente sofra. 
    		Exemplo: Estados da Federação, situação civil, grau de escolaridade etc.
    
+>>> UML:
+-----    
    
-   
->>> Programação estruturada: linear, sequência de instruções.
